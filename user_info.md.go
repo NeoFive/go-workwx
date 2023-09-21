@@ -20,6 +20,8 @@ type UserInfo struct {
 	Gender UserGender
 	// Email 邮箱；第三方仅通讯录应用可获取
 	Email string
+	//企业邮箱
+	BizMail        string
 	// AvatarURL 头像 URL；第三方仅通讯录应用可获取
 	//
 	// NOTE：如果要获取小图将url最后的”/0”改成”/100”即可。

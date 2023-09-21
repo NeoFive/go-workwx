@@ -73,6 +73,7 @@ func (x UserDetail) intoUserInfo() (UserInfo, error) {
 		Mobile:      x.Mobile,
 		Gender:      gender,
 		Email:       x.Email,
+		BizMail:     x.BizMail,
 		AvatarURL:   x.AvatarURL,
 		Telephone:   x.Telephone,
 		IsEnabled:   x.IsEnabled != 0,
