@@ -10,6 +10,7 @@ type UserDetail struct {
 	Mobile         string   `json:"mobile,omitempty"`
 	Gender         string   `json:"gender,omitempty"`
 	Email          string   `json:"email,omitempty"`
+	BizMail        string   `json:"biz_mail"`
 	IsLeaderInDept []int    `json:"is_leader_in_dept"`
 	AvatarURL      string   `json:"avatar"`
 	Telephone      string   `json:"telephone"`
