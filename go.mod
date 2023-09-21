@@ -1,4 +1,4 @@
-module github.com/NeoFive/go-workwx
+module github.com/xen0n/go-workwx
 
 go 1.17
 
